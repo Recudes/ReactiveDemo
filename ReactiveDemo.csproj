@@ -149,7 +149,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PasswordTextfeld.xaml" />
+    <Page Include="PasswordTextfield.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NugetDetailsView.xaml.cs">
@@ -157,9 +157,9 @@
     </Compile>
     <Compile Include="NugetDetailsViewModel.cs" />
     <Compile Include="PasswordTextfeld.xaml.cs">
-      <DependentUpon>PasswordTextfeld.xaml</DependentUpon>
+      <DependentUpon>PasswordTextfield.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PasswordTextfeldViewModel.cs" />
+    <Compile Include="PasswordTextfieldViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
